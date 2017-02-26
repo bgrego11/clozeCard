@@ -1,0 +1,30 @@
+{
+  "name": "clozecard_creator",
+  "version": "1.0.0",
+  "description": "node app to create flash cards via cmd line",
+  "main": "main.js",
+  "dependencies": {
+    "inquirer": "^3.0.4",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgrego11/clozeCard.git"
+  },
+  "keywords": [
+    "flash",
+    "cards",
+    "cloze",
+    "delete"
+  ],
+  "author": "ben g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgrego11/clozeCard/issues"
+  },
+  "homepage": "https://github.com/bgrego11/clozeCard#readme"
+}
