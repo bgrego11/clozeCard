@@ -88,10 +88,14 @@ var printAll = function() {
                 return console.log(err);
             }
             var myCards = [];
+            
             var array = data.toString().split("\n")
+            
 
             for (i in array) {
             cardArr = array[i].split("|");
+            if (cardArr.length > 2) {
+           
             //capture card type
             type = cardArr[0].trim();
             text1 = cardArr[1].trim();
@@ -102,7 +106,7 @@ var printAll = function() {
             } else if (type === "cloze") {
                 myCards.push(new ClozeCard(text1,text2));
             };
-
+            }
             
 
 
@@ -122,6 +126,7 @@ var printFlash = function() {
 
             for (i in array) {
             cardArr = array[i].split("|");
+            if (cardArr.length > 2) {
             //capture card type
             type = cardArr[0].trim();
             text1 = cardArr[1].trim();
@@ -130,7 +135,7 @@ var printFlash = function() {
                 myCards.push(new Flash(text1,text2));
                 
             };
-
+            };
             
 
 
@@ -149,6 +154,7 @@ var printCloze = function() {
 
             for (i in array) {
             cardArr = array[i].split("|");
+            if (cardArr.length > 2) {
             //capture card type
             type = cardArr[0].trim();
             text1 = cardArr[1].trim();
@@ -156,7 +162,7 @@ var printCloze = function() {
            if (type === "cloze") {
                 myCards.push(new ClozeCard(text1,text2));
             };
-
+            };
             
 
 

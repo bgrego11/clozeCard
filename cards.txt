@@ -1,0 +1,4 @@
+
+cloze | Mohammad Mossadeq was the first democratically elected leader of Iran | Mohammad Mossadeq
+cloze | Allen Iverson was the NBA season MVP in 2001 | Allen Iverson
+flash | Who invented peanut butter | George Washington Carver
